@@ -1,0 +1,117 @@
+@font-face{
+	font-family:'Alex Brush';
+	src:url('Alex Brush/AlexBrush-Regular.ttf');
+	
+}
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+#titre{ /*Appel de l'iD titre avec le # */
+	color:white;
+	font-size:350%;
+	font-family: 'Alex Brush';
+	font-style:oblique;
+	font-weight:bold;
+
+}
+
+body{
+	 
+	 background-color:rgb(195, 226, 250);
+	 color:#333333;
+	 background-image: url("image/background5.png");
+	 background-attachment: fixed;
+	 background-position: 0px 0px;
+	 background-position: center;
+ }
+
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 4px red;
+	border:3px inset;
+	border-color: red;
+	border-radius:10px;
+	width: 50%;
+	margin:0 auto;
+	background-color: rgb(195, 226, 250);
+}
+
+h2{
+	
+	text-align: center;
+	text-shadow: 2px 2px 3px red;
+	border:3px inset;
+	border-color: red;
+	border-radius:10px;
+	width: 35%;
+	margin:0 auto;
+	background-color:rgb(195, 226, 250);
+	color:white;
+	font-size:200%;
+	font-family: 'Alex Brush';
+}
+
+p{
+	
+	width:25%;
+	height: 150px;
+	text-align:justify;
+	margin:0 auto;
+	padding-bottom: 2%;
+	max-width: 800px;
+	min-width:200px;
+	border:2px solid red;
+	border-radius: 0px 0px 15px 15px;
+	padding:30px;
+	margin-bottom:50px;
+	overflow: auto;
+	font-size:100%;
+	font-family: calibri;
+}
+
+ul{ 
+
+	width:25%;
+	height: 150px;
+	border:2px solid red;
+	border-radius: 0px 0px 15px 15px;
+	margin:0 auto;
+	padding-bottom: 2%;
+	max-width: 800px;
+	min-width:200px;
+	padding:30px;
+	margin-bottom:50px;
+	overflow: auto;
+	font-size:100%;
+	font-family: calibri;
+
+}
+
+li a:hover{
+	
+	color:red;
+	font-style:italic;
+	text-decoration: underline;
+	
+}
+
+li a:active{
+	
+	color:blue;
+}
+
+li a:focus{ /*séléctionné, donc quand on clique*/
+	
+	background-color:rgb(195, 226, 250);
+	
+}
+
+li a:visited{ /*une fois le lien clicable visité*/
+	
+	color:red;
+}
